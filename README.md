@@ -1,29 +1,18 @@
-# Template #
+# Fans #
 
-**Jean Luc Denbroeder**, Junior Web Developer by BeCode  
+**Naiel & Jean Luc**, Junior Web Developer by BeCode  
 
-## Template ##
+## Projet du site Fans (suite de FrontEnd-AllezCine ##
 
 Etat: **En cours**  
 
-Début:   
-Durée:   
+Début: 31/01/2018  
+Durée: 2 semaines  
 Lieu: BeCode, Be Central  
 
-Liens des consignes  
+Liens des consignes:  
+[Swartz-promo-3/Projects/FrontEnd-AllezCine/](https://github.com/becodeorg/Swartz-promo-3/tree/master/Projects/FrontEnd-AllezCine)
 
-Langages:  
+Langages: HTML, CSS, jQuery, JS,...  
 
-Réalisation  
-
-<!-- 
-<http://www.google.com>
-
-[google](http://www.google.com "link to google")
-
-[![alt](url de l'image)](url du lien)
-
-[![Capture d'écran de la page Accueil](https://jldenbroeder.github.io/URL/assets/img/capt1.jpg "Capture d'écran de la page Accueil")](URL)  
--->
-
-> Rien ne sert de courir pour réussir
+Réalisation: Travail d'intégration Front-End basé sur un personnage   
