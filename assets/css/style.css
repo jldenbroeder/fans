@@ -11,33 +11,23 @@ html, body {
   background-color: rgb(249, 247, 196);
 }
 
-.imgSpiderman-head {
-  width: 100%;
-  max-width: 475px;
-  height: auto;
-}
-
-#divHeader {
-  height: 100%;
-  /* min-height: 250px; */
-  max-height: 600px;
-  max-width: 1200px;
-  min-width: 580px;
-  background-image: url("../img/newyork.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.row1 {
+.row {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+
+.content {
   width: 90%;
   max-width: 1200px;
   min-width: 580px;
   background-color: rgb(255, 255, 255);
+}
+
+.full {
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(210, 210, 210);
 }
 
 .col_25 {
