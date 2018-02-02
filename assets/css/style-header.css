@@ -3,61 +3,86 @@ html, body {
   padding: 0;
   width: 100%;
   min-height: 100%;
-  background-color: rgb(249, 247, 196);
+  background-color: rgb(58, 61, 65);
 }
 
-.contenair {
+.head-container {
   display: grid;
-  /* grid-gap: 0px; */
-  grid-template-columns: repeat(16, [col] 6.25%);
-  grid-template-rows: repeat(8, [row] 6.25%);
-  background-color: #fff;
-  /* color: #444; */
+  grid-template-columns: repeat(16, [col] calc(100% / 16));
+  grid-template-rows: repeat(8, [row] calc(100% / 8));
 }
 
-.box {}
-
-.backroundHeader {
+.head-backround {
   background-image: url("../img/newyork.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-size: cover;
   background-position: center;
-  z-index: 9;
-}
-
-.spiderman {
-  grid-column: col 4 / span 7;
-  grid-row: row 2 / span 7;
-  /* background-color: #949ab0; */
-  z-index: 10;
-}
-
-.vide1 {
-  grid-column: col 1 / span 5;
-  grid-row: row 1 / span 5;
-  /* background-color: #b0e89e; */
-}
-
-.bd {
-  grid-column: col 1 / span 3;
-  grid-row: row 5 / span 3;
-  z-index: 2;
-}
-
-.anim {
-  grid-column: col 3 / span 3;
-  grid-row: row / span 3;
   z-index: 3;
 }
 
-.img-head {
+.head-spiderman {
+  grid-column: col 4 / span 7;
+  grid-row: row 2 / span 7;
+  align-self: end;
+  z-index: 20;
+}
+
+.head-bd {
+  grid-column: col 1 / span 3;
+  grid-row: row 5 / span 3;
+  z-index: 11;
+}
+
+.head-anim {
+  grid-column: col 3 / span 3;
+  grid-row: row / span 3;
+  z-index: 12;
+}
+
+.head-films {
+  grid-column: col 9 / span 3;
+  grid-row: row / span 3;
+  z-index: 13;
+}
+
+.head-games {
+  grid-column: col 12 / span 3;
+  grid-row: row 2 / span 3;
+  z-index: 14;
+}
+
+.head-goodies {
+  grid-column: col 13 / span 4;
+  grid-row: row 5 / span 4;
+  z-index: 15;
+}
+
+.head-bio {
+  grid-column: col 4 / span 9;
+  grid-row: row 7 / span 2;
+  align-self: end;
+  z-index: 19;
+}
+
+.head-empty1 {
+  grid-column: col 3 / span 1;
+  grid-row: row 4 / span 1;
+  z-index: 19;
+}
+
+.head-empty2 {
+  grid-column: col 1 / span 1;
+  grid-row: row 8 / span 1;
+  z-index: 19;
+}
+
+.head-img {
   width: 100%;
-  max-width: 475px;
   height: auto;
 }
 
-.imgTransparent-head {
+.head-transparent {
   width: 100%;
   max-width: 25px;
   height: 25px;
