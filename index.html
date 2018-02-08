@@ -5,32 +5,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-header.css">
+    <link rel="stylesheet" href="assets/css/style-nav.css">
+    <script src="assets/js/jquery-2.2.4.js"></script>
     <title>Spiderman</title>
   </head>
 
   <body>
-    <div class="row full">
-      <div class="row content">
-        <p>Navbar</p>
+    <!-- NAVBAR -->
+    <div class="row full noir">
+      <div class="row content noir">
+        <!-- NAVIGATION -->
+        <nav class="navbar" id="topmenu">
+          <ul>
+            <li> <a href="#">Accueil</a> </li>
+            <li> <a href="#bio">Présentation</a>
+              <ul>
+                <li><a href="#bd" id="">Bandes dessinées</a></li>
+                <li><a href="#anims" id="">Dessins animées</a></li>
+                <li><a href="#films" id="">Filmographie</a></li>
+                <li><a href="#games" id="">Jeux vidéos</a></li>
+              </ul>
+            </li>
+            <li> <a href="photos.html">Galerie de photos</a> </li>
+            <li> <a href="#">Spider-Boutique</a> </li>
+            <li> <a href="contact.html">Contact</a> </li>
+          </ul>
+        </nav>
       </div>
     </div>
-    <div class="row full">
-      <p>Header</p>
+    <!-- HEADER -->
+    <div class="row full noir">
+      <div class="head-container head-backround">
+        <div class="head-empty1"><img src="assets/img/transparent.gif" class="head-img" alt=""></div>
+        <div class="head-empty2"><img src="assets/img/transparent.gif" class="head-img" alt=""></div>
+        <div class="head-bio"><a href="#bio"><img src="assets/img/bio.png" class="head-img" alt=""></a></div>
+        <div class="head-bd"><a href="#bd"><img src="assets/img/bd.png" class="head-img" alt=""></a></div>
+        <div class="head-anim"><a href="#anims"><img src="assets/img/anims.png" class="head-img" alt=""></a></div>
+        <div class="head-films"><a href="#films"><img src="assets/img/films.png" class="head-img" alt=""></a></div>
+        <div class="head-games"><a href="#games"><img src="assets/img/games.png" class="head-img" alt=""></a></div>
+        <div class="head-goodies"><img src="assets/img/goodies.png" class="head-img" alt=""></div>
+        <div class="head-spiderman"><img src="assets/img/spiderman-head.png" class="head-img" alt=""></div>
+      </div>
     </div>
-    <div class="row content">
+    <!-- BIOGRAPHIE -->
+    <div class="row content blanc">
       <div class="col_fin">
-        <h3>Titre</h3>
-        <p>Texte</p>
+        <div class="bloc-bio"> <a name="bio"></a>
+          <h3>Dr Peter Benjamin Parker</h3>
+          <p> Justicier, aventurier, inventeur,...<br> Citoyen des Etats-Unis<br> Identité Secrète (connue de certaines personnes)<br>
+            <ul>
+              <li>Taille: 1,78 m</li>
+              <li>Poids: 75 kg</li>
+              <li>Yeux: Marrons</li>
+              <li>Cheveux: Châtains</li>
+            </ul> Peter Parker est doté de poils microscopiques sur ses mains et ses pieds qui lui permettent d'adhérer aux surfaces.</p> <a id="afficher" href="#bio">Afficher</a> <a id="cacher" href="#bio">Masquer</a>
+          <p id="texte" hidden="hidden"><h4>Autre identité:</h4> Black Marvel, Captain Universe, Chien Fou 336, Daredevil, Dr Octopus, Dusk, « l'Etonnant Araignée », le Stupéfiant Homme-sac, le Frelon, Green Hood, Iron-Spider, Man-Spider, « le Monte en l'air », Prodigy, le Professeur S, Ricochet, Scarlet-Spider, Silver Spider, Spider, Spider-Boy, Spider-Hulk, Spider-Lézard, Spider-Morphosis, Spider-Phénix, Spider-X-Man, Spidey, « Tête de toile », « le Tisseur »; Peter Palmer, Ben Reilly, Tony Richards, « Tiger »<br> <h4></h4>Lieu de naissance: Queens (New York, New York, Etats-Unis)<br><h4></h4>Situation de famille: Célibataire (autrefois marié mais le mariage a été magiquement annulé avec effet rétroactif)<br><h4></h4>Parents connus : Richard Parker (père, décédé), Mary Fitzpatrick Parker (mère, décédée), William Fitzpatrick (grand-père maternel, décédé), Benjamin Parker (oncle, décédé), May Reilly Parker (tante), Teresa Parker (peut-être sœur), Jay Jameson (oncle par alliance), J. Jonah Jameson (cousin par alliance), John Jameson (l'Homme-Loup, cousin au second degré par alliance), Mary Jane Watson Parker (autrefois épouse, aujourd'hui ex-fiancée), Philip Watson (autrefois beau-père), Madeline Watson (autrefois belle-mère, décédée), Gayle Watson Byrnes (autrefois belle-sœur), May Parker (fille, présumée morte), Benjamin Reilly (Scarlet Spider, clone/ »frère »/« cousin »), décédé), Kaine (Scarlet-Spider, clone), Spidercide (clone, décédé), le Gardien (clone, décédé), Jack (clone, décédé), d'autres clones (décédés)<br><h4></h4>Appartenance à un groupe: (Spider-Man) Partenaire de Silk, membres des Avengers, de l'Ecole Jean Grey (les X-Men), ancien membre de la Spider-Armée, de la Fondation du Futur, des Héros à Louer, des New Avengers, des Marvel Knights, des Secret Avengers (de la Guerre civile), des Hors-la-Loi, des Quatre Fantastiques, des Brooklyn Avengers, des Défenseurs secrets, de la Société des Araignées, des Terrifics (sous hypnose), ancien partenaire de Scarlet-Spider (Reilly), de la Chatte noire, mentor d'Alpha ; (Peter Parker) fondateur et président de Parker Industries, propriétaire du Cerveau vivant, ancien employé du Daily Bugle/DB, du Front Line, du Daily Globe, des Laboratoires Horizon, de Tricorp Research<br> Base d'opérations: Parker Industries (Hudson River, New York), le Gem Theater (New York), l'Ecole Jean Grey (Salem Center, Wetchester County, New York) ; autrefois la Tour des Avengers (Manhattan, New York), la Sims Tower (Times Square, Manhattan, New York, (Terre-3145), le Baxter Building (Manhattan, New York), Forest Hills (Queens, New York)<br>Première apparition: VO : Amazing Fantasy (vol.1) #15 (août 1962, par Stan Lee & Steve Ditko) – VF : Fantask (Lug) n°4 (mai 1969, avec Amazing Spider-Man (vol.1) # 1 ; Amazing Fantasy # 15 a été publié dans Iron-Man (Arédit) n°1 du 2ème trimestre 1980)</p>
+        </div>
       </div>
     </div>
-    <div class="row content"> </div>
-    <div class="row full">
-      <div class="col_fin">
-        <p>Tester le rendu final sur les différents navigateurs</p>
-        <p>Verifier tous les liens</p>
+    <!-- 1 SECTION BANDES DESSINEES -->
+    <div class="row full bg-img bg-spid-bd clair">
+      <div class="row content blanc-30">
+        <div class="col_30">
+          <p><a name="bd"></a></p>
+        </div>
+        <div class="col_30"> <img src="assets/img/spid-bd1.png" alt=""> </div>
+        <div class="col_fin">
+          <div class="bloc-presentation"> <span class="titre-presentation">Bandes dessinées</span>
+            <p>The Amazing Spider-Man est considéré comme étant la bande dessinée centrale des aventures de Spider-Man. La majorité des personnages et des vilains de Spider-Man ont été introduits dans cette série de comics. De même, la majorité des événements
+              marquants de la vie de l'Araignée se sont produits dans ce comic.</p>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- 2 SECTION DESSINS ANIMEES -->
+    <div class="row full bg-img bg-spid-anim">
+      <div class="row content blanc-30">
+        <div class="col_fin">
+          <div class="bloc-presentation"> <span class="titre-presentation">Dessins animées</span>
+            <p>Spider-Man, l'homme-araignée est une série télévisée américaine d'animation en 65 épisodes, produite par Stan Lee et Avi Arad d'après les aventures de Spider-Man, super-héros des comics publiés depuis 1962 par Marvel Comics.</p>
+          </div>
+        </div>
+        <div class="col_30"> <img src="assets/img/spid-anim1.png" alt=""> </div>
+        <div class="col_30">
+          <p><a name="anims"></a></p>
+        </div>
+      </div>
+    </div>
+    <!-- 3 SECTION FILMS -->
+    <div class="row full bg-img bg-spid-film clair">
+      <div class="row content blanc-30">
+        <div class="col_30">
+          <p><a name="films"></a></p>
+        </div>
+        <div class="col_30"> <img src="assets/img/spid-film1.png" alt=""> </div>
+        <div class="col_fin">
+          <div class="bloc-presentation"> <span class="titre-presentation">Filmographie</span>
+            <p>En l'espace de 15 ans, entre 2002 et 2017, le studio Sony a produit trois versions différentes de la franchise Spider-Man et le super-héros a été incarné par trois acteurs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--4 SECTION GAMES -->
+    <div class="row full bg-img bg-spid-game">
+      <div class="row content blanc-30">
+        <div class="col_fin">
+          <div class="bloc-presentation"> <span class="titre-presentation">Jeux vidéos</span>
+            <p>Spider-Man est un jeu vidéo d'action en cours de développement par Insomniac Games et édité par Sony Interactive Entertainment prévu pour 2018 exclusivement sur la console PlayStation4.</p>
+          </div>
+        </div>
+        <div class="col_30"> <img src="assets/img/spid-game1.png" alt=""> </div>
+        <div class="col_30">
+          <p><a name="games"></a></p>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
     <div class="row content">
       <div class="col_30">
         <p>col 1&nbsp;</p>
@@ -42,6 +135,7 @@
         <p>col 3&nbsp;</p>
       </div>
     </div>
+    <!-- JAVASCRIPT -->
     <script src="assets/js/file.js" type="text/javascript"></script>
   </body>
 
