@@ -119,9 +119,15 @@ img {
 }
 
 .col_30 {
-  width: 33.33%;
+  width: 33%;
+  text-align: center;
 }
-
+a {
+  font-family: Arial;
+  font-size: 14px;
+    color: white;
+  text-decoration: none;
+}
 .col_50 {
   width: 50%;
 }
@@ -133,4 +139,17 @@ img {
   flex: 1;
   align-items: center;
   justify-content: center;
+}
+.icone-fontawesome{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #cccccc;
+}
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+.red {
+  color: rgb(255, 65, 65);
 }

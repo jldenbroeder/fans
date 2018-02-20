@@ -2,9 +2,9 @@
 
 **Naiel & Jean Luc**, Junior Web Developer by BeCode  
 
-## Projet du site Fans (suite de FrontEnd-AllezCine ##
+## Projet du site Fans (suite de FrontEnd-AllezCine) ##
 
-Etat: **En cours**  
+Etat: **Terminé** (Sauf la partie Shop)  
 
 Début: 31/01/2018  
 Durée: 2 semaines  
